@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> callback </title>
+    <script>
+        
+        console.log('1');
+
+        setTimeout(() =>console.log('2'),5000 ); 
+
+        console.log('3');
+
+
+// setTimeout(function(){
+//     console.log('2');
+// },5000); // 5초 경과 후에 이 코드를 실행하라고 명령!
+ 
+// 콜백함수 : 함수에 파라미터로 들어가는 함수 
+// 인자 = 매개변수 = 파라미터
+// 용도 : 자바스크립트에서 무언가를 순차적으로 진행하고싶을때 사용 
+// 결과 : 1,3 (5초 후에)2가 나옴 
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
